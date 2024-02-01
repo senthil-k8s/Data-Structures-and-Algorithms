@@ -1,7 +1,7 @@
 class Solution {
     public int[][] divideArray(int[] nums, int k) {
         // TC -> O(NlogN + N)
-        // sSC -> O(N)
+        // SC -> O(N)
         Arrays.sort(nums);
         int len = nums.length;
         int[][] result = new int[len/3][3];
